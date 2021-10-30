@@ -1,0 +1,22 @@
+.footer 
+{
+    background-color: rgba(0,0,0,0.5);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icons 
+{
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.icons:hover 
+{
+    color: cyan;
+}

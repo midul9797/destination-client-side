@@ -1,0 +1,18 @@
+
+.card 
+{
+    height: 200px;
+    border-radius: 20px;
+    margin: 40px;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+.icon 
+{
+    font-size: 60px;
+    font-weight: normal;
+    color: cyan;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 15%;
+}

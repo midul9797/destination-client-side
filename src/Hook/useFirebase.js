@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react';
 import { getAuth,GoogleAuthProvider, signInWithPopup, onAuthStateChanged, signOut} from 'firebase/auth';
+import initialize from '../Firebase/firebase.init';
+initialize();
 const useFirebase = () => {
     const [user, setUser] = useState({});
     const [destinations, setDestinations] = useState([]);
+    const [destination, setDestination] = useState({});
 
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
@@ -39,6 +42,8 @@ const useFirebase = () => {
         setUser,
         destinations,
         setDestinations,
+        destination,
+        setDestination,
         logInUsingGoogle,
         logOut
 

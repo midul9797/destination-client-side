@@ -1,0 +1,27 @@
+.banner 
+{
+    margin-top: -10%;
+    
+}
+.banner-img {
+    
+    filter: brightness(30%);
+    height: 600px;
+}
+.button 
+{
+    background-color: transparent;
+    color: white;
+    padding: 10px 25px;
+    border: 2px solid cyan;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.button:hover 
+{
+    background-color: cyan;
+    color: black;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}

@@ -1,0 +1,22 @@
+.destinations
+{
+
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.destinations img {
+    height: 250px;
+    border-radius: 15px;
+    filter: brightness(80%);
+}
+.destination 
+{
+    
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.05);
+    background-color: rgba(255,255,255, 0.1);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
