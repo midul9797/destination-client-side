@@ -7,7 +7,7 @@ const ReviewBooking = () => {
     const {id} = useParams();
     const [destinations, setDestinations] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:4000/destinations')
+        fetch('https://grim-coffin-84586.herokuapp.com/destinations')
         .then(res=> res.json())
         .then(data => setDestinations(data))
     })

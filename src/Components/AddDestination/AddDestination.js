@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 const AddDestination = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
-    fetch('http://localhost:4000/destinations', {
+    fetch('https://grim-coffin-84586.herokuapp.com/destinations', {
         method: 'POST',
         headers: {
             'content-type': 'application/json'

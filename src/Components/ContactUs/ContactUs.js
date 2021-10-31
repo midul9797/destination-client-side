@@ -26,17 +26,17 @@ const ContactUs = () => {
         <form action="" className="p-5">
           <h1 className="text-cyan fw-bold mb-5">Send us a message</h1>
           <div className="mb-3">
-            <label for="formGroupExampleInput" className="form-label fw-bold">Name</label>
+            <label htmlFor="formGroupExampleInput" className="form-label fw-bold">Name</label>
             <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Your Name" />
           </div>
           <div className="mb-3">
-            <label for="formGroupExampleInput2" className="form-label fw-bold">Email</label>
+            <label htmlFor="formGroupExampleInput2" className="form-label fw-bold">Email</label>
             <input type="text" className="form-control" id="formGroupExampleInput2" placeholder="Your Email" />
           </div>
           <div className="form-floating">
             <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
               style={{ height: '150px' }}></textarea>
-            <label for="floatingTextarea2">Your Message</label>
+            <label htmlFor="floatingTextarea2">Your Message</label>
           </div>
           <div className="p-3">
             <button type="submit" className="button px-4 fw-bold">Submit</button>
